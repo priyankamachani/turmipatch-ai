@@ -29,7 +29,7 @@ TurmiPatch AI explores how artificial intelligence and smart monitoring could he
 
 This project is currently in the concept and research stage.
 
-The TurmiPatch domain and LinkedIn presence were created in August 2025. Due to Tier 2 visa restrictions, the project has not yet been launched as an active startup. The current focus is on research, documentation, concept development, and future AI prototype planning.
+The TurmiPatch domain and LinkedIn presence were created in August 2025. Due to not being able to open a limited company restrictions, the project has not yet been launched as an active startup. The current focus is on research, documentation, concept development, and future AI prototype planning.
 
 ## Future Development
 
