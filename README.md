@@ -42,3 +42,25 @@ turmipatch-ai/
 ├── LICENSE
 ├── .gitignore
 └── Turmipatch logo.png
+
+## Interactive Prototype
+
+TurmiPatch AI now includes a runnable Streamlit prototype located in the `prototype/` folder.
+
+### Current Features
+
+- Wound image upload
+- Synthetic sample wound images for testing
+- Symptom tracking sliders
+- Rule-based prototype risk scoring
+- Low / Medium / High risk classification
+- Result summary table
+- CSV result export
+- Medical safety disclaimer
+
+### Run Locally
+
+```bash
+cd prototype
+pip install -r requirements.txt
+streamlit run app.py
