@@ -1,26 +1,44 @@
-# TurmiPatch AI Sample Images
+# TurmiPatch AI Prototype
 
-These are synthetic sample images created only for testing the TurmiPatch AI Streamlit prototype.
+This folder contains the first working Streamlit prototype for TurmiPatch AI.
 
-## Important Notes
+## Features
 
-- These are not real patient images.
-- These are not clinical training images.
-- These should not be used for diagnosis, treatment, or medical decision-making.
-- They are only for UI testing, demo screenshots, and prototype walkthroughs.
+- Wound image upload
+- Symptom tracking sliders
+- Rule-based prototype risk scoring
+- Risk level classification
+- Result summary table
+- CSV export
+- Medical safety disclaimer
 
-## Files
+## How to Run Locally
 
-- synthetic_low_risk_wound.png
-- synthetic_medium_risk_wound.png
-- synthetic_high_risk_wound.png
+From the root of the repository:
 
-## Suggested GitHub Folder
+```bash
+cd prototype
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-Upload these images into:
+## Important Disclaimer
 
-prototype/sample_images/
+This is an early-stage research prototype only.
+It is not a certified medical device and must not be used for diagnosis,
+treatment, or clinical decision-making.
 
-## Suggested README note
+## Suggested GitHub Release
 
-"Sample images are synthetic and are included only for prototype demonstration. They are not real wound images and are not suitable for medical use."
+After adding this prototype, publish a new release:
+
+`v0.2.0 – Interactive Prototype`
+
+## Future Improvements
+
+- Add real computer vision model
+- Add wound area segmentation
+- Add healing progress comparison between images
+- Add patient history tracking
+- Add clinician-facing dashboard
+- Add public dataset experimentation
